@@ -8,32 +8,58 @@
 
 ---
 
-Full-stack software engineer with 5+ years of experience designing, building, and maintaining production web applications, distributed backend services, and scalable SaaS platforms. Specialized in modern TypeScript architectures across React, Next.js, Node.js, and relational/document databases, with practical experience integrating LLM APIs and agentic workflows into production software.
+Full-stack software engineer with 5+ years of experience designing, building, and maintaining production web applications, distributed backend services, and scalable SaaS platforms. Specialized in modern TypeScript architectures across React, Next.js, Node.js, and relational and document databases, with practical experience integrating LLM APIs and agentic workflows into production software.
 
 ---
 
-## About
+## About & Technical Focus
 
-- **Experience**: 5+ years of full-stack software development experience across B2B SaaS, enterprise systems, and client-facing digital products.
-- **Core Stack**: Extensive experience with TypeScript, JavaScript, React, Next.js, Node.js, Express, PostgreSQL, Prisma, MongoDB, and Redis.
-- **Product & Backend Systems**: Building multi-tenant architectures, recurring subscription workflows with Stripe, background job processing with BullMQ, role-based access control (RBAC), and real-time data synchronization.
-- **AI & LLM Workflows**: Implementing production integrations with OpenAI, Anthropic Claude, and Google Gemini—including streaming assistant interfaces, tool calling, model routing, and Model Context Protocol (MCP).
-- **Testing & Delivery**: Maintaining automated test suites with Jest, Vitest, and Playwright, containerizing environments with Docker, and setting up CI/CD pipelines via GitHub Actions.
-- **Technical Leadership**: Previously served as Technical Lead at Mighty Ventures LLP, coordinating project delivery, architecture reviews, technical scoping, mentoring developers, and facilitating client discussions.
-
----
-
-## What I Work On
-
-- **Full-Stack SaaS Applications**: Architecting responsive, accessible frontends using Next.js and React, backed by clean API services, typed data contracts, and optimized state management.
-- **Backend Systems & Data Architecture**: Designing REST APIs and WebSocket services with Node.js and Express/NestJS, modeling data across PostgreSQL and MongoDB, and implementing Redis caching for low-latency operations.
-- **Billing & Subscription Infrastructure**: Integrating payment flows with Stripe, handling asynchronous webhook events, managing recurring billing lifecycles, and ensuring auditability.
-- **Applied AI & Developer Tooling**: Integrating LLMs into business applications—orchestrating context retrieval, structured output generation, streaming responses, and external tool execution.
-- **Quality & Automated Testing**: Ensuring software reliability across critical workflows through comprehensive unit, integration, and end-to-end tests using Jest, Vitest, and Playwright.
+- **Core Engineering**: 5+ years building full-stack applications with TypeScript, JavaScript, React, Next.js, Node.js, Express, PostgreSQL, Prisma, MongoDB, and Redis.
+- **SaaS & Backend Systems**: Multi-tenant architectures, recurring subscription lifecycles with Stripe, background job orchestration with BullMQ, role-based access control (RBAC), and real-time data synchronization via WebSockets.
+- **Applied AI & Agentic Workflows**: Production integrations with OpenAI, Anthropic Claude, and Google Gemini—implementing streaming assistant interfaces, structured output generation, tool calling, model routing, and Model Context Protocol (MCP) integrations.
+- **Quality & Automated Testing**: End-to-end quality assurance across critical workflows using Jest, Vitest, and Playwright, paired with Docker containerization and automated CI/CD pipelines via GitHub Actions.
+- **Technical Leadership**: Former Technical Lead at Mighty Ventures LLP—leading delivery coordination, architectural reviews, technical scoping and estimation, developer mentoring, and client-facing communication.
 
 ---
 
-## Selected Product Experience
+## Public Projects & Demonstrations
+
+A curated selection of independently developed projects demonstrating my engineering approach, technical decisions, and implementation skills:
+
+- **[Next.js Full-Stack AI Toolkit](https://github.com/vgpateliya/nextjs-fullstack-ai-toolkit)**  
+  *Agentic Engineering · Cursor Rules · Claude Code · MCP · Next.js · Quality Gates*  
+  A battle-tested governance and automation toolkit for Next.js full-stack teams using Claude Code, Cursor, and Gemini. Features strict architectural boundaries (server/client separation, data layering), pre-commit/pre-push quality gates via Husky, and structured agent workflows.
+
+- **[Task Management Platform](https://github.com/vgpateliya/task-management)**  
+  *TypeScript · Next.js 14 (App Router) · Zustand · Tailwind CSS · Firebase*  
+  A modern project and task management dashboard featuring responsive kanban-style state updates, optimistic UI patterns, strict TypeScript domain modeling, and route protection.
+
+- **[Multi-Tenant SaaS Architecture Demonstration](https://github.com/vgpateliya)** *(In Development)*  
+  *TypeScript · Next.js · PostgreSQL · Prisma · Stripe Subscriptions · RBAC · Docker*  
+  Production-grade demonstration of tenant schema isolation, automated Stripe webhook lifecycle handling, organization-level RBAC, and background audit logging.
+
+- **[AI / MCP Engineering Showcase](https://github.com/vgpateliya)** *(In Development)*  
+  *Node.js / TypeScript · Model Context Protocol (MCP) · Tool Calling · Streaming · Anthropic / OpenAI*  
+  A dedicated implementation showcasing custom MCP servers, streaming client interfaces, multi-model fallback routing, and structured JSON generation.
+
+- **[Real-Time Collaborative Application](https://github.com/vgpateliya)** *(In Development)*  
+  *WebSockets · Node.js · Redis Pub/Sub · Optimistic Concurrency*  
+  Real-time state synchronization service utilizing Redis pub/sub channels and WebSocket connections for collaborative multi-user sessions.
+
+---
+
+## Engineering Principles
+
+- **Architecture & Boundaries**: Clear separation between presentation, application logic, and data access layers. Strict enforcement of server/client boundaries in modern React/Next.js architectures.
+- **Security & Data Integrity**: Defense-in-depth principles—strict input validation, parameterized database queries, authenticated route middleware, principle of least privilege, and sanitized third-party webhook handling.
+- **Reliability & Testing**: Automated testing at critical business boundaries (unit, integration, and E2E), graceful error degradation, and resilient background job retries.
+- **Maintainability & DX**: Strong TypeScript typing across full client-server contracts, consistent linting/formatting standards, and clear documentation of architectural decisions.
+
+---
+
+## Professional Product Experience (Proprietary)
+
+*High-level overview of enterprise and client software delivered across professional engagements. Source code is proprietary to respective employers and clients.*
 
 - **B2B SaaS & Business Development**: Contributed to a business-development platform for law firms and legal professionals using Node.js, Express, PostgreSQL, Prisma, and Next.js, featuring automated Stripe subscription billing and role-based permissions.
 - **E-Commerce & Seller Tooling**: Built TikTok Shop seller tools with Stripe integration, recurring subscription management, profit and pricing calculators, and MongoDB aggregation pipelines for seller analytics.
