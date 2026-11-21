@@ -22,29 +22,85 @@ Full-stack software engineer with 5+ years of experience designing, building, an
 
 ---
 
-## Public Projects & Demonstrations
+## Selected Professional Engineering Projects (Proprietary)
 
-A curated selection of independently developed projects demonstrating my engineering approach, technical decisions, and implementation skills:
+> *These projects were delivered as part of professional engagements. Source code and client-specific implementation details are proprietary. The descriptions highlight my engineering contributions without exposing confidential information.*
+
+### 1. Multi-Tenant Event & Conference Platform
+- **Overview**: Distributed multi-tenant ticketing and event management ecosystem powering customer-facing event websites and a centralized organizer administration portal.
+- **Engineering Contribution**: Lead developer and top code contributor, architecting the shared API services, ticketing state machines, and administrative dashboards.
+- **Key Technical Implementations**:
+  - **Ticketing & Checkout**: End-to-end checkout pipeline with Stripe, temporary seat holds, automated invoicing, waitlist queuing, and dispute/refund workflows.
+  - **On-Site Operations**: Secure dynamic QR-code ticket generation and offline check-in scanner capabilities for venue staff.
+  - **Applied AI Integration**: Multi-provider AI assistant integrated via Model Context Protocol (MCP) with dynamic model routing for attendee support.
+  - **Security & Compliance**: Granular role-based access control (RBAC), automated GDPR data retention policies, and automated end-to-end test suites using Playwright.
+- **Tech Stack**: React, Next.js, TypeScript, Node.js, Express, PostgreSQL, Redis, BullMQ, Stripe, Model Context Protocol (MCP), Playwright.
+
+---
+
+### 2. AI-Powered Business Development & Gamification SaaS
+- **Overview**: Multi-tenant B2B business development and employee gamification platform designed for professional services and corporate teams.
+- **Engineering Contribution**: Full-stack engineering of conversational AI assistant workflows, core billing, user assessment engines, and tenant data isolation.
+- **Key Technical Implementations**:
+  - **Conversational AI Coaching**: Streaming chat interface providing real-time personalized guidance and structured actionable tasks via LLM APIs.
+  - **Gamification Engine**: Configurable campaign workflows, reusable task libraries, periodic skill assessments, and automated achievement rewards.
+  - **Reward Fulfillment**: Integration with third-party digital gift-card APIs for automated corporate reward distribution.
+  - **Security & Resource Control**: Cryptographic refresh-token rotation, strict schema-level tenant isolation, and configurable per-organization AI token rate limits.
+- **Tech Stack**: Next.js, React, TypeScript, Node.js, Prisma ORM, PostgreSQL, Redis, BullMQ, OpenAI API.
+
+---
+
+### 3. Event Management & Vendor Marketplace
+- **Overview**: Two-sided event marketplace connecting event organizers with verified service vendors across multiple metropolitan regions.
+- **Engineering Contribution**: Architected and led full-stack marketplace development, cross-platform mobile application, and high-concurrency search infrastructure.
+- **Key Technical Implementations**:
+  - **Scalable Discovery Engine**: Multi-facet search and filtering across city, category, and budget covering 10,000+ vendor listings.
+  - **Media Delivery Optimization**: High-performance image and media delivery pipeline tailored for media-heavy vendor portfolios.
+  - **Real-Time Lead Management**: Instant WebSocket notifications and push alerts alerting vendors to incoming client inquiries and quotation requests.
+  - **Vendor Mobile App**: Cross-platform React Native client enabling on-the-go vendor profile, booking, and lead management.
+- **Tech Stack**: Next.js, TypeScript, React Native, Node.js, Express, MongoDB.
+
+---
+
+### 4. Self-Drive Car Rental & Fleet Management
+- **Overview**: Comprehensive vehicle rental and fleet operations platform spanning customer booking web portals and fleet manager administration.
+- **Engineering Contribution**: Independently engineered customer booking flows, admin operations dashboard, and backend synchronisation services.
+- **Key Technical Implementations**:
+  - **Multi-City Fleet Discovery**: Real-time search, availability calendars, vehicle tier categorization, and dynamic pricing rules.
+  - **Concurrency & Booking Safety**: Booking concurrency control algorithms preventing race conditions and double-booking during peak reservation windows.
+  - **Real-Time Synchronization**: Bidirectional WebSocket channels synchronizing reservation status between web dashboards and Android devices.
+  - **Role-Based Operational Controls**: Role-based access control (RBAC) separating customer service agents, fleet managers, and system administrators.
+- **Tech Stack**: Next.js, TypeScript, React Native, Node.js, Express, MongoDB, WebSockets.
+
+---
+
+### 5. E-Commerce Seller Analytics & Growth Platform
+- **Overview**: Subscription-based analytics and market intelligence SaaS platform built for e-commerce and TikTok Shop merchants.
+- **Engineering Contribution**: Full-stack implementation of recurring subscription workflows, analytical aggregation pipelines, and profit calculation tooling.
+- **Key Technical Implementations**:
+  - **Subscription Lifecycle**: Automated recurring billing, tier upgrades/downgrades, and Stripe webhook lifecycle handling.
+  - **High-Throughput Aggregation**: Optimized MongoDB aggregation pipelines querying 10,000+ data rows with sub-second response times.
+  - **Seller Intelligence**: Real-time profitability calculators, pricing optimization tools, and sales revenue analytics.
+- **Tech Stack**: React, Node.js, Express, MongoDB, Stripe.
+
+---
+
+### 6. Manufacturing ERP & Shop-Floor Platform
+- **Overview**: Enterprise resource planning and shop-floor operations platform modernizing manufacturing tracking, inventory control, and compliance.
+- **Engineering Contribution**: Engineering of operational workflows, database modeling, regulatory compliance integrations, and ERP system bridges.
+- **Key Technical Implementations**:
+  - **Shop-Floor Tracking**: End-to-end visibility into production stages, raw material consumption, and warehouse inventory movements.
+  - **Regulatory Compliance**: Automated GST e-invoicing and e-way bill generation for tax and logistics compliance.
+  - **Enterprise System Integration**: Reliable data synchronization bridges with QAD legacy enterprise systems.
+- **Tech Stack**: Vue.js, Nuxt, Node.js, Express, MongoDB.
+
+---
+
+## Independent & Open-Source Projects
 
 - **[Next.js Full-Stack AI Toolkit](https://github.com/vgpateliya/nextjs-fullstack-ai-toolkit)**  
   *Agentic Engineering · Cursor Rules · Claude Code · MCP · Next.js · Quality Gates*  
   A battle-tested governance and automation toolkit for Next.js full-stack teams using Claude Code, Cursor, and Gemini. Features strict architectural boundaries (server/client separation, data layering), pre-commit/pre-push quality gates via Husky, and structured agent workflows.
-
-- **[Task Management Platform](https://github.com/vgpateliya/task-management)**  
-  *TypeScript · Next.js 14 (App Router) · Zustand · Tailwind CSS · Firebase*  
-  A modern project and task management dashboard featuring responsive kanban-style state updates, optimistic UI patterns, strict TypeScript domain modeling, and route protection.
-
-- **[Multi-Tenant SaaS Architecture Demonstration](https://github.com/vgpateliya)** *(In Development)*  
-  *TypeScript · Next.js · PostgreSQL · Prisma · Stripe Subscriptions · RBAC · Docker*  
-  Production-grade demonstration of tenant schema isolation, automated Stripe webhook lifecycle handling, organization-level RBAC, and background audit logging.
-
-- **[AI / MCP Engineering Showcase](https://github.com/vgpateliya)** *(In Development)*  
-  *Node.js / TypeScript · Model Context Protocol (MCP) · Tool Calling · Streaming · Anthropic / OpenAI*  
-  A dedicated implementation showcasing custom MCP servers, streaming client interfaces, multi-model fallback routing, and structured JSON generation.
-
-- **[Real-Time Collaborative Application](https://github.com/vgpateliya)** *(In Development)*  
-  *WebSockets · Node.js · Redis Pub/Sub · Optimistic Concurrency*  
-  Real-time state synchronization service utilizing Redis pub/sub channels and WebSocket connections for collaborative multi-user sessions.
 
 ---
 
@@ -54,18 +110,6 @@ A curated selection of independently developed projects demonstrating my enginee
 - **Security & Data Integrity**: Defense-in-depth principles—strict input validation, parameterized database queries, authenticated route middleware, principle of least privilege, and sanitized third-party webhook handling.
 - **Reliability & Testing**: Automated testing at critical business boundaries (unit, integration, and E2E), graceful error degradation, and resilient background job retries.
 - **Maintainability & DX**: Strong TypeScript typing across full client-server contracts, consistent linting/formatting standards, and clear documentation of architectural decisions.
-
----
-
-## Professional Product Experience (Proprietary)
-
-*High-level overview of enterprise and client software delivered across professional engagements. Source code is proprietary to respective employers and clients.*
-
-- **B2B SaaS & Business Development**: Contributed to a business-development platform for law firms and legal professionals using Node.js, Express, PostgreSQL, Prisma, and Next.js, featuring automated Stripe subscription billing and role-based permissions.
-- **E-Commerce & Seller Tooling**: Built TikTok Shop seller tools with Stripe integration, recurring subscription management, profit and pricing calculators, and MongoDB aggregation pipelines for seller analytics.
-- **Mobility & Fleet Management**: Developed a self-drive booking dashboard and Android client application featuring user management, role-based access control, real-time booking synchronization, and production server monitoring.
-- **Manufacturing ERP & Enterprise Integrations**: Integrated Industry 4.0 functionalities and QAD enterprise resource planning systems with modern web applications and data processing pipelines.
-- **Events, Ticketing & Regulated Systems**: Engineered real-time ticket reservation mechanisms, secure digital payment processing, compliant data handling, and third-party API integrations across event ticketing, healthcare, and financial software.
 
 ---
 
